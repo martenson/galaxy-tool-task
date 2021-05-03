@@ -23,6 +23,6 @@ The result is most probably correct if the following Galaxy Tool test passes:
 * Moreover Planemo documentation contains [section](https://planemo.readthedocs.io/en/latest/writing_standalone.html) on writing Galaxy tools.
 * The most important planemo commands for you are `planemo serve` and `planemo test`. [Full list](https://planemo.readthedocs.io/en/latest/commands.html) of commands.
 * Don't miss the README.md file in this repository.
-* Galaxy knows the `mgf` format, but does not understand the `mat` format. You can treat `mat` files as generic `txt` files when you need to.
+* Galaxy itself implements the `mgf` format, but not the `mat` format. Set the output format to generic `txt`.
 * You do not need to care about cornercases or invalid inputs.
 * You can check out the full [XML schema](https://docs.galaxyproject.org/en/master/dev/schema.html) of what is allowed in a Galaxy tool file.
