@@ -1,10 +1,10 @@
 ### Assignment:
 
-Use the code in this repository to create a Galaxy tool, that will convert a given Galaxy dataset from the `.mgf` format to the `.mat` format.
+Use the code in this repository to create a Galaxy tool, that will convert a given single Galaxy dataset from the `.mgf` format to the `.mat` format.
 
 The result of this assignment should at minimum include an `.xml` file with the Galaxy tool definition. You can also include a paragraph or two explaining your thinking about the asignment or describe the steps taken. We will take these notes into consideration when evaluating.
 
-You do not have to include parameters other than what is needed for the conversion. We will evaluate by putting your tool in Galaxy and running it on the test data provided. The result is most probably correct if the following Galaxy Tool test passes:
+You do not have to include parameters other than what is needed for the conversion. We will evaluate by putting your tool in Galaxy and running it on the test data provided in the `test-data` directory. The result is most probably correct if the following Galaxy Tool test passes:
 
 ```xml
     <tests>
@@ -24,4 +24,4 @@ You do not have to include parameters other than what is needed for the conversi
 * Galaxy itself implements the `mgf` format, but not the `mat` format. Set the output format to generic `txt` to work around this.
 * You do not need to care about cornercases or invalid inputs.
 * You can check out the full [XML schema](https://docs.galaxyproject.org/en/master/dev/schema.html) of what is allowed in a Galaxy tool file.
-* If you are stuck please feel free to write an email to `martin.cech@recetox.muni.cz` and ask specific questions.
+* If you are stuck please feel free to write an email to `martin.cech@recetox.muni.cz` and ask specific questions. This is encouraged and not penalized.
